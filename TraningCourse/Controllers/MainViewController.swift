@@ -17,7 +17,6 @@ class MainViewController: UIViewController {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
-
     
     private let userNameLabel: UILabel = {
         let label = UILabel()
@@ -39,7 +38,17 @@ class MainViewController: UIViewController {
         tableView.showsVerticalScrollIndicator = false
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.delaysContentTouches = false
+        tableView.isHidden = true
         return tableView
+    }()
+    
+    private let noTraningImage: UIImageView = {
+       let imageView = UIImageView()
+        imageView.image = UIImage(named: "NoTraning")
+        imageView.contentMode = .scaleAspectFit
+        //imageView.isHidden = true
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        return imageView
     }()
     
     private let addWorkoutButton : UIButton = {
@@ -87,6 +96,7 @@ class MainViewController: UIViewController {
         view.addSubview(weatherView)
         view.addSubview(workoutTodayLabel)
         view.addSubview(tableView)
+        view.addSubview(noTraningImage)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,7 +108,8 @@ class MainViewController: UIViewController {
     }
 
     @objc private func addWorkoutButtonTapped() {
-        print("addWorkoutButtonTapped")
+        let newWorkoutViewController = NewWorkoutViewController()
+        present(newWorkoutViewController, animated: true, completion: nil)
     }
 }
 //MARK: - UITableViewDataSource
@@ -167,6 +178,12 @@ extension MainViewController {
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0)
+        ])
+        NSLayoutConstraint.activate([
+            noTraningImage.topAnchor.constraint(equalTo: workoutTodayLabel.bottomAnchor, constant: 0),
+            noTraningImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+            noTraningImage.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
+            noTraningImage.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 1)
         ])
     
         

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2C0AB3772791A76B00A5D354 /* WaetherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0AB3762791A76B00A5D354 /* WaetherView.swift */; };
+		2C3238A32796D77A009A507B /* DateAndRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3238A22796D77A009A507B /* DateAndRepeatView.swift */; };
+		2C3238A52796DD69009A507B /* RepsOrTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3238A42796DD69009A507B /* RepsOrTimerView.swift */; };
+		2C3238A727971DEB009A507B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3238A627971DEB009A507B /* MainTabBarController.swift */; };
+		2C3238A9279720E9009A507B /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3238A8279720E9009A507B /* StatisticViewController.swift */; };
+		2C3238AB27972131009A507B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3238AA27972131009A507B /* ProfileViewController.swift */; };
 		2C36ECC227909B3E00DDD300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36ECC127909B3E00DDD300 /* AppDelegate.swift */; };
 		2C36ECC427909B3E00DDD300 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36ECC327909B3E00DDD300 /* SceneDelegate.swift */; };
 		2C36ECC627909B3E00DDD300 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36ECC527909B3E00DDD300 /* MainViewController.swift */; };
@@ -19,6 +24,7 @@
 		2C36ECE727909F3400DDD300 /* UIStackView + Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36ECE627909F3400DDD300 /* UIStackView + Extentions.swift */; };
 		2C36ECEA2790B31600DDD300 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36ECE92790B31600DDD300 /* CalendarView.swift */; };
 		2C36ECEC2790BB0000DDD300 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36ECEB2790BB0000DDD300 /* CalendarCollectionViewCell.swift */; };
+		2C3BB1F92795E87300E22DA6 /* NewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BB1F82795E87300E22DA6 /* NewWorkoutViewController.swift */; };
 		2C6E7F8F2794307400183C4B /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E7F8E2794307400183C4B /* WorkoutTableViewCell.swift */; };
 		2C97443327916C15002D2BE1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C97443127916C15002D2BE1 /* Roboto-Bold.ttf */; };
 		2C97443427916C15002D2BE1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C97443227916C15002D2BE1 /* Roboto-Medium.ttf */; };
@@ -26,6 +32,11 @@
 
 /* Begin PBXFileReference section */
 		2C0AB3762791A76B00A5D354 /* WaetherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaetherView.swift; sourceTree = "<group>"; };
+		2C3238A22796D77A009A507B /* DateAndRepeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndRepeatView.swift; sourceTree = "<group>"; };
+		2C3238A42796DD69009A507B /* RepsOrTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepsOrTimerView.swift; sourceTree = "<group>"; };
+		2C3238A627971DEB009A507B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2C3238A8279720E9009A507B /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		2C3238AA27972131009A507B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2C36ECBE27909B3E00DDD300 /* TraningCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraningCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C36ECC127909B3E00DDD300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C36ECC327909B3E00DDD300 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +50,7 @@
 		2C36ECE627909F3400DDD300 /* UIStackView + Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extentions.swift"; sourceTree = "<group>"; };
 		2C36ECE92790B31600DDD300 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		2C36ECEB2790BB0000DDD300 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C3BB1F82795E87300E22DA6 /* NewWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutViewController.swift; sourceTree = "<group>"; };
 		2C6E7F8E2794307400183C4B /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
 		2C97443127916C15002D2BE1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		2C97443227916C15002D2BE1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
@@ -103,6 +115,7 @@
 		2C36ECDA27909DBB00DDD300 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2C3BB1FA2795EB8700E22DA6 /* NewWorkoutVC */,
 				2C36ECE82790B30000DDD300 /* MainVC */,
 			);
 			path = Views;
@@ -112,6 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				2C36ECC527909B3E00DDD300 /* MainViewController.swift */,
+				2C3BB1F82795E87300E22DA6 /* NewWorkoutViewController.swift */,
+				2C3238A627971DEB009A507B /* MainTabBarController.swift */,
+				2C3238A8279720E9009A507B /* StatisticViewController.swift */,
+				2C3238AA27972131009A507B /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -172,6 +189,15 @@
 				2C6E7F8E2794307400183C4B /* WorkoutTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		2C3BB1FA2795EB8700E22DA6 /* NewWorkoutVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C3238A22796D77A009A507B /* DateAndRepeatView.swift */,
+				2C3238A42796DD69009A507B /* RepsOrTimerView.swift */,
+			);
+			path = NewWorkoutVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,15 +274,21 @@
 			files = (
 				2C36ECE327909F0700DDD300 /* UIView + Extentions.swift in Sources */,
 				2C0AB3772791A76B00A5D354 /* WaetherView.swift in Sources */,
+				2C3238A727971DEB009A507B /* MainTabBarController.swift in Sources */,
 				2C36ECC627909B3E00DDD300 /* MainViewController.swift in Sources */,
 				2C36ECEA2790B31600DDD300 /* CalendarView.swift in Sources */,
 				2C6E7F8F2794307400183C4B /* WorkoutTableViewCell.swift in Sources */,
+				2C3238A32796D77A009A507B /* DateAndRepeatView.swift in Sources */,
+				2C3238AB27972131009A507B /* ProfileViewController.swift in Sources */,
 				2C36ECE527909F1C00DDD300 /* UIColor + Extentions.swift in Sources */,
 				2C36ECC227909B3E00DDD300 /* AppDelegate.swift in Sources */,
 				2C36ECC427909B3E00DDD300 /* SceneDelegate.swift in Sources */,
+				2C3238A52796DD69009A507B /* RepsOrTimerView.swift in Sources */,
 				2C36ECEC2790BB0000DDD300 /* CalendarCollectionViewCell.swift in Sources */,
+				2C3BB1F92795E87300E22DA6 /* NewWorkoutViewController.swift in Sources */,
 				2C36ECDF27909E5300DDD300 /* UIFont+Extentions.swift in Sources */,
 				2C36ECE727909F3400DDD300 /* UIStackView + Extentions.swift in Sources */,
+				2C3238A9279720E9009A507B /* StatisticViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

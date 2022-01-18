@@ -113,8 +113,7 @@ class WorkoutTableViewCell: UITableViewCell {
         NSLayoutConstraint.activate([
             repsNumberLabel.topAnchor.constraint(equalTo: setNameLabel.bottomAnchor, constant: 5),
             repsNumberLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 100),
-            repsNumberLabel.heightAnchor.constraint(equalToConstant: 16),
-            repsNumberLabel.widthAnchor.constraint(equalToConstant: 65)
+            repsNumberLabel.heightAnchor.constraint(equalToConstant: 16)
         ])
         NSLayoutConstraint.activate([
             setNubmerLabel.topAnchor.constraint(equalTo: setNameLabel.bottomAnchor, constant: 5),

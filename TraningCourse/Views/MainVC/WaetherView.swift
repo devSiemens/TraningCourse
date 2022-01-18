@@ -67,7 +67,9 @@ class WeatherView:UIView {
     private func setConstrains(){
         NSLayoutConstraint.activate([
             label.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10),
-            label.topAnchor.constraint(equalTo: topAnchor, constant: 10)
+            label.topAnchor.constraint(equalTo: topAnchor, constant: 10),
+            label.trailingAnchor.constraint(equalTo: weatherImageView.leadingAnchor, constant: -5),
+            label.bottomAnchor.constraint(equalTo: labelOfAdvice.topAnchor, constant: -5)
         ])
         NSLayoutConstraint.activate([
             labelOfAdvice.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10),
@@ -75,10 +77,10 @@ class WeatherView:UIView {
             labelOfAdvice.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -90)
         ])
         NSLayoutConstraint.activate([
-            weatherImageView.leadingAnchor.constraint(equalTo: trailingAnchor, constant: -90),
-            weatherImageView.topAnchor.constraint(equalTo: topAnchor, constant: 5),
+            weatherImageView.centerYAnchor.constraint(equalTo: centerYAnchor),
             weatherImageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
-            weatherImageView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5)
+            weatherImageView.widthAnchor.constraint(equalToConstant: 60),
+            weatherImageView.heightAnchor.constraint(equalToConstant: 60)
         ])
     }
 }
