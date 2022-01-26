@@ -1,3 +1,2 @@
 # TraningCourse
-The application is written by layout code.
-This app is for experience and doing homework
+continue writing the application in https://github.com/devSiemens/TraningApp
